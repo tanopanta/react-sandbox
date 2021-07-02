@@ -1,12 +1,43 @@
-import "./styles.css";
+/**
+ * const, let
+ */
 
-console.log("9");
+// var v = 2;
+// console.log(v);
 
-document.getElementById("app").innerHTML = `
-<h1>Hello Vanilla!</h1>
-<div>
-  We use the same configuration as Parcel to bundle this sandbox, you can find more
-  info about Parcel 
-  <a href="https://parceljs.org" target="_blank" rel="noopener noreferrer">here</a>.
-</div>
-`;
+// v = "上書き可能"
+
+// console.log(v);
+
+// var v = "再宣言も可能";
+
+// console.log(v);
+
+// let v2 = 12;
+// console.log(v2);
+
+// v2 = "上書き可能";
+// console.log(v2);
+
+// let v2 = "再宣言不可";
+// var v2 = "varでもだめ";
+// console.log(v2);
+
+// const v3 = "const";
+// console.log(v3);
+// v3 = "上書き不可";
+// console.log(v3);
+
+// const v3 = "再宣言も不可";
+
+// const v4 = {
+//   name: "test",
+//   age: 28,
+// };
+// v4.name = "上書き";
+// console.log(v4);
+
+const v5 = ["a", "b"];
+v5[0] = "z";
+v5.push("c");
+console.log(v5);
