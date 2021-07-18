@@ -48,7 +48,23 @@
 // const msg = `${name} : ${age} 歳`;
 // console.log(msg);
 
-const func1 = (str) => str + str;
-const func2 = (a, b) => a + b;
-console.log(func1("hoge"));
-console.log(func2(9, 1));
+// const func1 = (str) => str + str;
+// const func2 = (a, b) => a + b;
+// console.log(func1("hoge"));
+// console.log(func2(9, 1));
+
+const prof = {
+  name: "taro",
+  age: 22
+};
+
+const msg = `name is ${prof.name}. age is ${prof.age}.`;
+console.log(msg);
+
+const { name, age } = prof;
+const msg2 = `name is ${name}. age is ${age}.`;
+console.log(msg2);
+
+const hoge = [1, 2, 3];
+const [a, b] = hoge;
+console.log(a, b);
