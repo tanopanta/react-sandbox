@@ -83,13 +83,40 @@
 // console.log(num1, num2);
 // console.log(arr3);
 
-const arr4 = [10, 20];
-const arr5 = [30, 40];
+// const arr4 = [10, 20];
+// const arr5 = [30, 40];
 
-const arr6 = [...arr4];
-console.log(arr6);
-const [...arr7] = arr4;
-console.log(arr7);
+// const arr6 = [...arr4];
+// console.log(arr6);
+// const [...arr7] = arr4;
+// console.log(arr7);
 
-const arr8 = [...arr4, ...arr5];
-console.log(arr8);
+// const arr8 = [...arr4, ...arr5];
+// console.log(arr8);
+
+// const arr = ["hoge", "fuga", "piyo"];
+// // for (let i = 0; i < arr.length; i++) {
+// //   console.log(arr[i]);
+// // }
+
+// const arr2 = arr.map((name) => {
+//   return name;
+// })
+
+// console.log(arr2)
+// arr.map((name, idx) => console.log(idx, name));
+
+// const numArr = [1, 2, 3, 4, 5];
+// const filterd = numArr.filter((num) => {
+//   return num % 2 === 0;
+// });
+// console.log(filterd)
+
+// const arr = ["tanaka", "yamada", "sato"];
+// console.log(arr.map((name) => {
+//   if (name === "sato") {
+//     return name;
+//   } else {
+//     return `${name}さん`
+//   }
+// }))
